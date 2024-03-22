@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: serif;
+    background-color:blue;
+}
+.header{
+    height: 121px;
+    width: 100%;
+    background: linear-gradient(rgb(0, 47, 255),white,rgb(0, 4, 255) );
+    display: inline-block;
+
+    
+    
+    
+}
+.header img{
+    height: 111px;
+    width: 111px;
+    background: none;
+    margin-left: 21px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 49%;
+    display: inline-block;
+
+    
+}
+.header h1{
+    color:rgb(0, 15, 148);
+    display: inline;
+    float: right;
+    font-size: 74px;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 99px;
+    
+    
+    
+    
+}
+.header h3 {
+    color: brown;
+    float: right;
+    margin: 19px 41px;
+    border: 2px solid blue;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    box-shadow: -5px +5px 5px rgba(73, 72, 72, 0.74) ;
+}
+.header h3 a{
+    text-decoration: none;
+}
+
+
+.inp{
+    width: 41%;
+    height: 300px;
+    text-align: center;
+    padding: 29px;
+    background: linear-gradient(blue,white );
+    margin: 29px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.inp input{
+    height: 41px;
+    width: 221px;
+    display: block;
+    margin-top:61px;
+    margin-left: 127px;
+    border:2px solid blue;
+    border-radius: 5px;
+    font-size: 29px;
+    background-color: azure;
+
+}
+.inp button{
+    background-color:white;
+    color: blue;
+    padding: 6px 29px;
+    margin-top: 9px ;
+    margin-right: 81px;
+    font-size: 19px;
+    font-weight: bolder;
+    border: 2px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.out{
+height: 350px;
+width: 41%;
+background: linear-gradient(blue,white );
+float: right;
+margin: 29px;
+border-radius: 9px;
+border: 2px solid white;
+
+}
+.out button{
+    height: 41px;
+    width: 199px;
+    display: block;
+    margin-left: 29%;
+    margin-top: 35px;
+    border:2px solid white;
+    background-color: rgba(25, 8, 255, 0.884);
+    color: white;
+    font-size: 29px;
+    font-family: serif;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.out button:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid red;
+}
+.out button:active{
+    background-color: black;
+    
+}
+
+p{
+    background-color: beige;
+    height: 59px;
+    width: 499px;
+    text-align: center;
+    margin-left: 29%;
+    margin-top: 25px;
+    padding: 1x;
+    font-size: 51px;
+    font-weight: bolder;
+    border-radius: 8px;
+    color: rgb(255, 0, 0);
+    overflow: auto;
+    
+}
+
+#footer{
+    height: 141px;
+    width:100%;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(blue,white);
+    margin-top: 0%;
+}
+
+#footer h1 {
+    margin-top: 0%;
+}
+
+@media screen and (max-width: 481px) {
+    .header{
+        width: 481px;
+        border: 2px solid wheat;
+        border-radius: 5px;
+    }
+    .header h1{
+        font-size: 34px;
+        width: 34px;
+        margin-right: 121px;
+        margin-top: 66px;
+    }
+    .header h3{
+        margin-right: 61px;
+    }
+    .inp{
+        width: 111px;
+        margin-left: 11px;
+        height: 259px;
+        
+        
+    }
+    .out{
+        width: 171px;
+        margin-left: 11px;
+        margin-right: 9px;
+        height: 311px;
+        margin-top: 31px;
+        margin-bottom: 2px;
+    
+    }
+    .inp input{
+        width: 111px;
+        margin: 0px;
+        padding-left: 11px;
+        margin-left: 1px;
+        margin-top: 11px;
+    }.inp button{
+        margin-top: 99px;
+    }
+    .out button{
+        width: 149px;
+        margin-left: 9px;
+        margin-top: 31px;
+    }
+    p{
+        margin: 11px;
+        width: 399px;
+    }
+    #footer{
+        width: 481px;
+    }
+
+}
